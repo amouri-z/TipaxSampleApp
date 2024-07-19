@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TipaxSampleApp</name>
+    </assembly>
+    <members>
+        <member name="M:TipaxSampleApp.Controllers.CustomerController.GetAllCustomers">
+            <summary>
+            بازیابی اطللاعات همه مشتریان
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TipaxSampleApp.Controllers.CustomerController.GetCustomerById(System.Int32)">
+            <summary>
+            بازیابی اطلاعات یک مشتری
+            </summary>
+            <param name="id">شناسه مشتری</param>
+            <returns></returns>
+        </member>
+        <member name="M:TipaxSampleApp.Controllers.CustomerController.CreateCustomer(TipaxSampleApp.ViewModels.CustomerBindingModel)">
+            <summary>
+            افزودن مشتری
+            </summary>
+            <param name="customerModel">اطلاعات مشتری</param>
+            <returns></returns>
+        </member>
+        <member name="M:TipaxSampleApp.Controllers.CustomerController.UpdateCustomer(TipaxSampleApp.ViewModels.CustomerBindingModel)">
+            <summary>
+            ویرایش اطلاعات یک مشتری
+            </summary>
+            <param name="customerModel">اطلاعات مشتری</param>
+            <returns></returns>
+        </member>
+        <member name="M:TipaxSampleApp.Controllers.CustomerController.DeleteCustomer(System.Int32)">
+            <summary>
+            حذف مشتری
+            </summary>
+            <param name="id">شناسه مشتری</param>
+            <returns></returns>
+        </member>
+        <member name="P:TipaxSampleApp.ViewModels.CustomerDto.FirstName">
+            <summary>
+            نام
+            </summary>
+        </member>
+        <member name="P:TipaxSampleApp.ViewModels.CustomerDto.LastName">
+            <summary>
+            نام خانوادگی
+            </summary>
+        </member>
+        <member name="P:TipaxSampleApp.ViewModels.CustomerDto.DateOfBirth">
+            <summary>
+            تاریخ تولد
+            </summary>
+        </member>
+        <member name="P:TipaxSampleApp.ViewModels.CustomerDto.PhoneNumber">
+            <summary>
+            شماره تماس
+            </summary>
+        </member>
+        <member name="P:TipaxSampleApp.ViewModels.CustomerDto.Email">
+            <summary>
+            ایمیل
+            </summary>
+        </member>
+        <member name="P:TipaxSampleApp.ViewModels.CustomerDto.BankAccountNumber">
+            <summary>
+            شماره حساب بانکی
+            </summary>
+        </member>
+        <member name="P:TipaxSampleApp.ViewModels.CustomerBindingModel.Id">
+            <summary>
+            شناسه مشتری
+            </summary>
+        </member>
+        <member name="P:TipaxSampleApp.ViewModels.CustomerBindingModel.FirstName">
+            <summary>
+            نام
+            </summary>
+        </member>
+        <member name="P:TipaxSampleApp.ViewModels.CustomerBindingModel.LastName">
+            <summary>
+            نام خانوادگی
+            </summary>
+        </member>
+        <member name="P:TipaxSampleApp.ViewModels.CustomerBindingModel.DateOfBirth">
+            <summary>
+            تاریخ تولد
+            </summary>
+        </member>
+        <member name="P:TipaxSampleApp.ViewModels.CustomerBindingModel.PhoneNumber">
+            <summary>
+            شماره تماس
+            </summary>
+        </member>
+        <member name="P:TipaxSampleApp.ViewModels.CustomerBindingModel.Email">
+            <summary>
+            ایمیل
+            </summary>
+        </member>
+        <member name="P:TipaxSampleApp.ViewModels.CustomerBindingModel.BankAccountNumber">
+            <summary>
+            شماره حساب بانکی
+            </summary>
+        </member>
+        <member name="P:TipaxSampleApp.ViewModels.CustomerViewModel.Id">
+            <summary>
+            شناسه مشتری
+            </summary>
+        </member>
+        <member name="P:TipaxSampleApp.ViewModels.CustomerViewModel.FirstName">
+            <summary>
+            نام
+            </summary>
+        </member>
+        <member name="P:TipaxSampleApp.ViewModels.CustomerViewModel.LastName">
+            <summary>
+            نام خانوادگی
+            </summary>
+        </member>
+        <member name="P:TipaxSampleApp.ViewModels.CustomerViewModel.DateOfBirth">
+            <summary>
+            تاریخ تولد
+            </summary>
+        </member>
+        <member name="P:TipaxSampleApp.ViewModels.CustomerViewModel.PhoneNumber">
+            <summary>
+            شماره تماس
+            </summary>
+        </member>
+        <member name="P:TipaxSampleApp.ViewModels.CustomerViewModel.Email">
+            <summary>
+            ایمیل
+            </summary>
+        </member>
+        <member name="P:TipaxSampleApp.ViewModels.CustomerViewModel.BankAccountNumber">
+            <summary>
+            شماره حساب بانکی
+            </summary>
+        </member>
+        <member name="T:TipaxSampleApp.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:TipaxSampleApp.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TipaxSampleApp.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TipaxSampleApp.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="P:TipaxSampleApp.Models.Customer.FirstName">
+            <summary>
+            نام
+            </summary>
+        </member>
+        <member name="P:TipaxSampleApp.Models.Customer.LastName">
+            <summary>
+            نام خانوادگی
+            </summary>
+        </member>
+        <member name="P:TipaxSampleApp.Models.Customer.DateOfBirth">
+            <summary>
+            تاریخ تولد
+            </summary>
+        </member>
+        <member name="P:TipaxSampleApp.Models.Customer.PhoneNumber">
+            <summary>
+            شماره تماس
+            </summary>
+        </member>
+        <member name="P:TipaxSampleApp.Models.Customer.Email">
+            <summary>
+            ایمیل
+            </summary>
+        </member>
+        <member name="P:TipaxSampleApp.Models.Customer.BankAccountNumber">
+            <summary>
+            شماره حساب بانکی
+            </summary>
+        </member>
+    </members>
+</doc>
